@@ -1,0 +1,44 @@
+# IDE / editor
+.idea/
+.vscode/
+*.iml
+*.code-workspace
+
+# OS
+.DS_Store
+._*
+Thumbs.db
+
+# Node
+node_modules/
+
+# Local env
+.env
+.env.local
+
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+
+# Claude Code local state and worktrees
+.claude/
+
+# Local development and deployment
+**/.venv/
+**/syndicate_venv/
+**/.aws/
+**/.terraform/
+**/.syndicate
+**/bundles/
+*.tfplan
+*.pem
+*.pfx
+*.key
+
+# Disable original CI/CD workflows in this submission
+.github/workflows/
